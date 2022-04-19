@@ -1,0 +1,7 @@
+sudo yarn add @rails/webpacker
+
+rails g erb:controller NewCheatSheet console 
+
+https://cdn.datatables.net/1.10.19/
+
+https://stackoverflow.com/questions/14845481/cannot-load-such-file-openssl-loaderror

@@ -1,0 +1,2 @@
+module NewCheatSheetHelper
+end

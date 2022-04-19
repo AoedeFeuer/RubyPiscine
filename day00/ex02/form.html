@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+ 
+    <head>
+        <title>EMAIL FORM</title>
+    </head>
+    
+    <body>
+        <form>
+            <label for="firstname">Firstname:</label><br>
+            <input type="text" id="firstname" name="firstname"><br>
+
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="age">Your age:</label><br>
+            <input type="number" name="age" id="age" min="1" max="99"><br>
+
+            <label for="phone">Phone:</label><br>
+            <input type="tel" id="phone" name="phone"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email"><br>
+
+            <label for="student">Are you 42 student?</label>
+            <input type="checkbox" id="student" name="student" value="student"><br>
+
+            <label for="gender">Your gender:</label><br>
+            <input type="radio" name="gender" value="Male" id="gender_male"> Male<br>
+            <input type="radio" name="gender" value="Female" id="gender_female"> Female<br>
+            <input type="radio" name="gender" value="Other" id="gender_other"> Other<br>
+
+            <input type="submit" value="Submit" onclick="displayFormContents();">
+
+        </form>
+
+        <script type="text/javascript" src="js/popup.js"></script>
+    </body> 
+ 
+</html>
+
